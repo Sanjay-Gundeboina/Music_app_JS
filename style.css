@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #f5f5f5;
+    background: #E4EFE7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body{
 .parent{
     max-width:500px;
     width:95%;
-    background: #fff;
+    background: #FDFAF6;
     border-radius: 15px;
     padding:20px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
