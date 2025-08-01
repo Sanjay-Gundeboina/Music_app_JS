@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="title_image">
+            <img id="title_image" src="" alt="song_title_image">
+        </div>
+        <div class="song_details">
+            <h2 id="song-title">Song Title</h2>
+            <p id="song-artist">Artist Name</p>
+        </div>
+
+        <div class="song_bar">
+            <input type="range" id="seek_bar" value="0" min="0" max="100">
+            <div class="time">
+                <span id="current_time">0:00</span>
+                <span id="total_duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="shuffle-btn"><i class="fas fa-random"></i></button>
+            <button id="prev-btn"><i class="fas fa-backward"></i></button>
+            <button id="play-btn" class="play-btn"><i class="fas fa-play"></i></button>
+            <button id="next-btn"><i class="fas fa-forward"></i></button>
+            <button id="repeat-btn"><i class="fas fa-redo"></i></button>
+        </div>
+
+        <div class="volume_control">
+            <label for="volume_bar">volume</label>
+            <input type="range" id="volume_bar" min="0" max="100" step="1" value="100">
+        </div>
+
+        <div class="playlist">
+            <h2>PlayList</h2>
+            <ul id="playlist">
+                
+            </ul> 
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
